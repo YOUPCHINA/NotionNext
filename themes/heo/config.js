@@ -97,10 +97,10 @@ const CONFIG = {
   ],
 
   SOCIAL_CARD: true, // 是否显示右侧，点击加入社群按钮
-  SOCIAL_CARD_TITLE_1: '哔哩哔哩频道',
-  SOCIAL_CARD_TITLE_2: '加入哔哩哔哩讨论分享',
+  SOCIAL_CARD_TITLE_1: '英语学习频道',
+  SOCIAL_CARD_TITLE_2: '加入探索发现',
   SOCIAL_CARD_TITLE_3: '点击加入频道',
-  SOCIAL_CARD_URL: 'https://space.bilibili.com/1375298909?spm_id_from=333.1007.0.0',
+  SOCIAL_CARD_URL: 'https://playphrase.me/',
 
   // *****  以下配置无效，只是预留开发 ****
   // 菜单配置
