@@ -206,16 +206,16 @@ const BLOG = {
     {
       name: 'My Stupid Heart',
       artist: 'Falcom Sound Team jdk',
-      url: 'https://m701.music.126.net/20230808130452/b16f08126b86e98b59e2f1b71591916c/jdyyaac/obj/w5rDlsOJwrLDjj7CmsOj/27441444248/0427/823d/e845/fbce4bd3679bbb44993219b2a0d6e47d.m4a',
+      url: 'https://music.163.com/song/media/outer/url?id=2045033484.mp3',
       cover:
             'https://p1.music.126.net/x5kIQ4G_2SMKpOYrG-mYww==/109951168592651958.jpg'
     },
     {
-      name: '王都グランセル',
+      name: 'All Alone On Christmas',
       artist: 'Falcom Sound Team jdk',
-      url: 'https://music.163.com/song/media/outer/url?id=731355.mp3',
+      url: 'https://music.163.com/song/media/outer/url?id=5084246.mp3',
       cover:
-            'https://p1.music.126.net/kn6ugISTonvqJh3LHLaPtQ==/599233837187278.jpg'
+            'https://p1.music.126.net/LrC6eznDRysA-NziURtBzg==/1790004930031437.jpg'
     }
   ],
   MUSIC_PLAYER_METING: process.env.NEXT_PUBLIC_MUSIC_PLAYER_METING || false, // 是否要开启 MetingJS，从平台获取歌单。会覆盖自定义的 MUSIC_PLAYER_AUDIO_LIST，更多配置信息：https://github.com/metowolf/MetingJS
@@ -367,7 +367,7 @@ const BLOG = {
 
   // 作废配置
   AVATAR: process.env.NEXT_PUBLIC_AVATAR || '/avatar.svg', // 作者头像，被notion中的ICON覆盖。若无ICON则取public目录下的avatar.png
-  TITLE: process.env.NEXT_PUBLIC_TITLE || 'NotionNext BLOG', // 站点标题 ，被notion中的页面标题覆盖；此处请勿留空白，否则服务器无法编译
+  TITLE: process.env.NEXT_PUBLIC_TITLE || 'LiYong', // 站点标题 ，被notion中的页面标题覆盖；此处请勿留空白，否则服务器无法编译
   HOME_BANNER_IMAGE:
         process.env.NEXT_PUBLIC_HOME_BANNER_IMAGE || '/bg_image.jpg', // 首页背景大图, 会被notion中的封面图覆盖，若无封面图则会使用代码中的 /public/bg_image.jpg 文件
   DESCRIPTION:
