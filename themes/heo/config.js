@@ -11,7 +11,7 @@ const CONFIG = {
 
   // 英雄区(首页顶部大卡)
   HERO_TITLE_1: '发现一切可能',
-  HERO_TITLE_2: '无论的思想的旅程还是知识的探索',
+  HERO_TITLE_2: '探索无垠世界',
   HERO_TITLE_3: 'Serendipity',
   HERO_TITLE_4: 'LiYong',
   HERO_TITLE_5: '热爱生活，知足常乐',
