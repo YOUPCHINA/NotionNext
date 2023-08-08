@@ -5,7 +5,7 @@ const CONFIG = {
 
   // 首页顶部通知条滚动内容，如不需要可以留空 []
   NOTICE_BAR: [
-    { title: '非常欢迎你的到来', url: 'https://space.bilibili.com/1375298909?spm_id_from=333.1007.0.0' },
+    { title: 'Welcome欢迎你的到来', url: 'https://space.bilibili.com/1375298909?spm_id_from=333.1007.0.0' },
     { title: '希望你在这里度过愉快而充实的时光', url: 'https://space.bilibili.com/1375298909?spm_id_from=333.1007.0.0' }
   ],
 
