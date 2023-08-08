@@ -20,7 +20,7 @@ const BLOG = {
   AUTHOR: process.env.NEXT_PUBLIC_AUTHOR || 'LiYong', // 您的昵称 例如 tangly1024
   BIO: process.env.NEXT_PUBLIC_BIO || '一个平凡的普通人🍚', // 作者简介
   LINK: process.env.NEXT_PUBLIC_LINK || '	serendipityliyong.eu.org', // 网站地址
-  KEYWORDS: process.env.NEXT_PUBLIC_KEYWORD || 'Notion, 博客', // 网站关键词 英文逗号隔开
+  KEYWORDS: process.env.NEXT_PUBLIC_KEYWORD || 'LiYong, 博客', // 网站关键词 英文逗号隔开
 
   // 社交链接，不需要可留空白，例如 CONTACT_WEIBO:''
   CONTACT_EMAIL: process.env.NEXT_PUBLIC_CONTACT_EMAIL || 'nicedaytoooyou@gmail.com', // 邮箱地址 例如mail@tangly1024.com
@@ -192,7 +192,7 @@ const BLOG = {
   WIDGET_PET_SWITCH_THEME: process.env.NEXT_PUBLIC_WIDGET_PET_SWITCH_THEME || true, // 点击宠物挂件切换博客主题
 
   // 音乐播放插件
-  MUSIC_PLAYER: process.env.NEXT_PUBLIC_MUSIC_PLAYER || false, // 是否使用音乐播放插件
+  MUSIC_PLAYER: process.env.NEXT_PUBLIC_MUSIC_PLAYER || true, // 是否使用音乐播放插件
   MUSIC_PLAYER_VISIBLE: process.env.NEXT_PUBLIC_MUSIC_PLAYER_VISIBLE || true, // 是否在左下角显示播放和切换，如果使用播放器，打开自动播放再隐藏，就会以类似背景音乐的方式播放，无法取消和暂停
   MUSIC_PLAYER_AUTO_PLAY:
         process.env.NEXT_PUBLIC_MUSIC_PLAYER_AUTO_PLAY || true, // 是否自动播放，不过自动播放时常不生效（移动设备不支持自动播放）
@@ -204,11 +204,11 @@ const BLOG = {
   MUSIC_PLAYER_AUDIO_LIST: [
     // 示例音乐列表。除了以下配置外，还可配置歌词，具体配置项看此文档 https://aplayer.js.org/#/zh-Hans/
     {
-      name: '风を共に舞う気持ち',
+      name: 'My Stupid Heart',
       artist: 'Falcom Sound Team jdk',
-      url: 'https://music.163.com/song/media/outer/url?id=731419.mp3',
+      url: 'https://m701.music.126.net/20230808130452/b16f08126b86e98b59e2f1b71591916c/jdyyaac/obj/w5rDlsOJwrLDjj7CmsOj/27441444248/0427/823d/e845/fbce4bd3679bbb44993219b2a0d6e47d.m4a',
       cover:
-            'https://p2.music.126.net/kn6ugISTonvqJh3LHLaPtQ==/599233837187278.jpg'
+            'https://p1.music.126.net/x5kIQ4G_2SMKpOYrG-mYww==/109951168592651958.jpg'
     },
     {
       name: '王都グランセル',
