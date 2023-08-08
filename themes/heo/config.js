@@ -34,7 +34,7 @@ const CONFIG = {
     '🏃 而今天是天赐的礼物',
     '🏠 要像珍惜礼物那样珍惜今天',
   ],
-  INFO_CARD_URL: 'https://space.bilibili.com/1375298909?spm_id_from=333.1007.0.0', // 个人资料底部按钮链接
+  INFO_CARD_URL: 'https://github.com/521xueweihan/HelloGitHub', // 个人资料底部按钮链接
 
   // 用户技能图标
   GROUP_ICONS: [
