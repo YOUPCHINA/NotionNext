@@ -14,6 +14,20 @@ import 'aos/dist/aos.css' // You can also use <link> for styles
 import dynamic from 'next/dynamic'
 import { isBrowser, loadExternalResource } from '@/lib/utils'
 import BLOG from '@/blog.config'
+import React, { useState } from 'react';
+import './App.css';
+
+function App() {
+  const [imageUrl, setImageUrl] = useState('path/to/image.jpg');
+
+  return (
+    <div className="App">
+      <header className="App-header">
+        <img src={imageUrl} alt="background image" />
+      </header>
+    </div>
+  );
+}
 
 // 各种扩展插件 动画等
 const ExternalPlugins = dynamic(() => import('@/components/ExternalPlugins'))
