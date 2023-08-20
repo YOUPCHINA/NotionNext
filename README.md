@@ -1,12 +1,6 @@
 # NotionNext
 
 <p>
-  <a aria-label="GitHub commit activity" href="https://github.com/tangly1024/NotionNext/commits/main" title="GitHub commit activity">
-    <img src="https://img.shields.io/github/commit-activity/m/tangly1024/NotionNext?style=for-the-badge"/>
-  </a>
-  <a aria-label="GitHub contributors" href="https://github.com/tangly1024/NotionNext/graphs/contributors" title="GitHub contributors">
-    <img src="https://img.shields.io/github/contributors/tangly1024/NotionNext?color=orange&style=for-the-badge"/>
-  </a>
   <a aria-label="Build status" href="#" title="Build status">
     <img src="https://img.shields.io/github/deployments/tangly1024/NotionNext/Production?logo=Vercel&style=for-the-badge"/>
   </a>
@@ -15,8 +9,6 @@
   </a>
 </p>
 
-
-中文文档 | [README in English](./README_EN.md)
 
 ## 致谢
 感谢Craig Hart发起的Nobelium项目
