@@ -6,3 +6,9 @@
 .fa-info:before {
     content: "\f05a";
 }
+
+.App {
+  background-image: url("path/to/https://s1.ax1x.com/2023/08/20/pP8GkCj.png");
+  background-size: cover;
+  background-position: center;
+}
