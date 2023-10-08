@@ -13,12 +13,12 @@ const CONFIG = {
   HERO_TITLE_1: '发现一切可能',
   HERO_TITLE_2: '探索无垠世界',
   HERO_TITLE_3: 'Serendipity',
-  HERO_TITLE_4: 'LiYong',
+  HERO_TITLE_4: 'Deng You',
   HERO_TITLE_5: '热爱生活，知足常乐',
   HERO_TITLE_LINK: 'serendipityliyong.eu.org',
 
   // 英雄区显示三个置顶分类
-  HERO_CATEGORY_1: { title: 'Serendipity', url: '/tag/Serendipity' },
+  HERO_CATEGORY_1: { title: 'YOUP歌单', url: 'https://music.dengyou.online' },
   HERO_CATEGORY_2: { title: 'Harmony', url: '/tag/Harmony' },
   HERO_CATEGORY_3: { title: 'Smile', url: '/tag/Smile' },
 
@@ -28,7 +28,7 @@ const CONFIG = {
 
   // 右侧个人资料卡牌欢迎语，点击可自动切换
   INFOCARD_GREETINGS: [
-    '你好！我是Li Yong',
+    '你好！我是Deng You',
     '🔍 昨天是段历史',
     '🤝 明天是个谜团',
     '🏃 而今天是天赐的礼物',
