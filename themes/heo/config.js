@@ -18,8 +18,8 @@ const CONFIG = {
   HERO_TITLE_LINK: 'serendipityliyong.eu.org',
 
   // 英雄区显示三个置顶分类
-  HERO_CATEGORY_1: { title: 'YOUP歌单', url: 'https://music.dengyou.online' },
-  HERO_CATEGORY_2: { title: 'Harmony', url: '/tag/Harmony' },
+  HERO_CATEGORY_1: { title: 'YOUP主页', url: 'https://www.dengyou.online' },
+  HERO_CATEGORY_2: { title: 'YOUP歌单', url: 'https://music.dengyou.online' },
   HERO_CATEGORY_3: { title: 'Smile', url: '/tag/Smile' },
 
   // 英雄区右侧推荐文章标签, 例如 [推荐] , 最多六篇文章; 若留空白''，则推荐最近更新文章
