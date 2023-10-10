@@ -1,12 +1,12 @@
 const CONFIG = {
   HOME_BANNER_ENABLE: true,
 
-  SITE_CREATE_TIME: '2023-8-1', // 建站日期，用于计算网站运行的第几天
+  SITE_CREATE_TIME: '2023-10-10', // 建站日期，用于计算网站运行的第几天
 
   // 首页顶部通知条滚动内容，如不需要可以留空 []
   NOTICE_BAR: [
-    { title: 'Welcome欢迎你的到来', url: 'https://space.bilibili.com/1375298909?spm_id_from=333.1007.0.0' },
-    { title: '希望你在这里度过愉快而充实的时光', url: 'https://space.bilibili.com/1375298909?spm_id_from=333.1007.0.0' }
+    { title: 'Welcome欢迎你的到来', url: 'https://www.dengyou.online' },
+    { title: '希望你在这里度过愉快而充实的时光', url: 'https://www.dengyou.online' }
   ],
 
   // 英雄区(首页顶部大卡)
@@ -15,12 +15,12 @@ const CONFIG = {
   HERO_TITLE_3: 'Serendipity',
   HERO_TITLE_4: 'Deng You',
   HERO_TITLE_5: '热爱生活，知足常乐',
-  HERO_TITLE_LINK: 'serendipityliyong.eu.org',
+  HERO_TITLE_LINK: 'https://link.dengyou.online',
 
   // 英雄区显示三个置顶分类
   HERO_CATEGORY_1: { title: 'YOUP主页', url: 'https://www.dengyou.online' },
   HERO_CATEGORY_2: { title: 'YOUP歌单', url: 'https://music.dengyou.online' },
-  HERO_CATEGORY_3: { title: 'Smile', url: '/tag/Smile' },
+  HERO_CATEGORY_3: { title: 'Smile', url: 'https://link.dengyou.online' },
 
   // 英雄区右侧推荐文章标签, 例如 [推荐] , 最多六篇文章; 若留空白''，则推荐最近更新文章
   HERO_RECOMMEND_POST_TAG: '推荐',
@@ -34,7 +34,7 @@ const CONFIG = {
     '🏃 而今天是天赐的礼物',
     '🏠 要像珍惜礼物那样珍惜今天',
   ],
-  INFO_CARD_URL: 'https://github.com/521xueweihan/HelloGitHub', // 个人资料底部按钮链接
+  INFO_CARD_URL: 'https://link.dengyou.online', // 个人资料底部按钮链接
 
   // 用户技能图标
   GROUP_ICONS: [
@@ -97,10 +97,10 @@ const CONFIG = {
   ],
 
   SOCIAL_CARD: true, // 是否显示右侧，点击加入社群按钮
-  SOCIAL_CARD_TITLE_1: '英语学习频道',
+  SOCIAL_CARD_TITLE_1: '个人主页频道',
   SOCIAL_CARD_TITLE_2: '加入探索发现',
   SOCIAL_CARD_TITLE_3: '点击加入频道',
-  SOCIAL_CARD_URL: 'https://playphrase.me/',
+  SOCIAL_CARD_URL: 'https://www.dengyou.online',
 
   // *****  以下配置无效，只是预留开发 ****
   // 菜单配置
